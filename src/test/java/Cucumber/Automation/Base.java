@@ -14,7 +14,7 @@ public class Base {
 	public static Properties prop;
 
 	public static WebDriver getDriver() throws IOException {
-		System.out.println("branch");
+		System.out.println("branch-2");
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream("C:\\Users\\Miguel Centellas\\Desktop\\2 curso cucumber\\cucumber 2\\Automation\\src\\test\\java\\Cucumber\\Automation\\global.properties");
 		prop.load(fis);
